@@ -85,7 +85,7 @@ d3.csv(pathToCsv, (data) => {
     const years = sumstat.map(k => k.key);
     var color = d3.scaleOrdinal()
         .domain(years)
-        .range(['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33', '#a65628', '#f781bf', '#999999', '#EEE2AD'])
+        .range(['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33', '#a65628', '#f781bf', '#999999', '#EEGFA4'])
 
     //set line for each year
     graph.selectAll('.line')
